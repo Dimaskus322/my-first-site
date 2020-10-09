@@ -1,0 +1,22 @@
+html{
+  background-color: #abcdfe;
+  background-image: url("https://st.depositphotos.com/1038117/2484/i/450/depositphotos_24846837-stock-photo-green-grass-background.jpg") ;
+  background-repeat:no-repeat;
+  background-position: top center;
+}
+.ipi{
+  border: 3px solid black;
+  width: 300px;
+  font-size: 15px;
+  margin-left: 500;
+  text-align: center;
+}
+.ipi:hover{
+  background-color: red;
+}
+.href{
+  background-color:yellow ;
+}
+.href:hover{
+  background-color:red;
+}
