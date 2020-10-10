@@ -1,0 +1,6 @@
+git add . / <file>  / <folder>
+git commit -m <"Text">
+git push -u origin <name> 
+git branch - просмотр веток
+git branch <name> - создание ветки с именем name
+git checkout <name> - переход к ветке с именем name
