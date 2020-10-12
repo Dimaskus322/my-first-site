@@ -1,3 +1,19 @@
 html{
   background-color: #abcdfe;
 }
+.head{
+  position: fixed;
+  border: 5px solid black;
+}
+.head1{
+  border: 3px solid black;
+  width: 250p;
+  font-size: 60px;
+  text-align: center;
+  background-color: #abcdfa;
+  float:left;
+}
+.head1:hover{
+  background-color: blue
+  color:white
+}
