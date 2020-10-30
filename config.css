@@ -1,19 +1,89 @@
+*{
+  box-sizing: border-box;
+
+}
 html{
+  margin-left: 220px;
   background-color: #abcdfe;
+  background-size: 2500px;
+  background-image: url('https://online-teacher.ru/image/english/bill.jpg');
+  background-repeat: no-repeat;
+  /*center
+  no-repeat;*/
 }
-.head{
+body{
+  max-width: 200px;
+  width: 100px;
+  height: 3000px;
+  margin: 0;
+}
+
+.sidebar{
   position: fixed;
+  height: 100%;
+  width: 220px;
   border: 5px solid black;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  background-color: black;
 }
-.head1{
-  border: 3px solid black;
-  width: 250p;
-  font-size: 60px;
+.sidebar p{
+  font-size: 40px;
+  color: white;
+  width: 150px;
   text-align: center;
-  background-color: #abcdfa;
-  float:left;
+  border-color: white;
+  display:  block;
+  transition: color .2s linear;
+  padding: 2px 2px;
+  margin-top: 0;
 }
-.head1:hover{
-  background-color: blue
-  color:white
+.sidebar a{
+  color: white;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+  border-color: white;
+  display:  block;
+  text-decoration: none;
+  font-family: Comic Sans MS;
+  transition: color .2s linear;
+  padding: 2px 2px;
+  margin-top:20px;
+
 }
+
+.sidebar a:hover{
+  color:crimson;
+}
+.headtext{
+  font-size: 70px;
+  margin: 300px 800px auto;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+.textblock{
+  margin-left: 300px;
+}
+.textblock p{
+  text-indent: 1.1em;
+}
+/*background-size:cover; весь экран
+
+
+
+
+
+
+
+
+
+
+
+
+
+background-image: image();haha
